@@ -12,6 +12,6 @@ class BatteryImpl {
       batteryLevel = "Failed to get battery level: '${e.message}'.";
     }
 
-    return batteryLevel ?? '';
+    return batteryLevel;
   }
 }
